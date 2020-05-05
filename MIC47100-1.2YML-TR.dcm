@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC47100-1.2YML-TR
+D 1A High Speed Low VIN LDO
+K
+F https://www.mouser.co.uk/datasheet/2/268/mic47100-778914.pdf
+$ENDCMP
+#
+#End Doc Library

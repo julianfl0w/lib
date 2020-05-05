@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# JS1300AQ
+#
+DEF JS1300AQ S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "JS1300AQ" 650 200 50 H V L CNN
+F2 "JS1300" 650 100 50 H I L CNN
+F3 "https://www.e-switch.com/system/asset/product_line/data_sheet/21/JS1300.pdf" 650 0 50 H I L CNN
+F4 "Multi-Directional Switches 50mA@12VDC Silver contacts" 650 -100 50 H I L CNN "Description"
+F5 "E-Switch" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "JS1300AQ" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "612-JS1300AQ" 650 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-JS1300AQ" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+X A 1 0 0 200 R 50 50 0 0 P
+X K 10 800 -400 200 L 50 50 0 0 P
+X B 2 0 -100 200 R 50 50 0 0 P
+X C 3 0 -200 200 R 50 50 0 0 P
+X D 4 0 -300 200 R 50 50 0 0 P
+X E 5 0 -400 200 R 50 50 0 0 P
+X F 6 800 0 200 L 50 50 0 0 P
+X G 7 800 -100 200 L 50 50 0 0 P
+X H 8 800 -200 200 L 50 50 0 0 P
+X J 9 800 -300 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
