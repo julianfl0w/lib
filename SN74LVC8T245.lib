@@ -1,0 +1,71 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SN74LVC8T245
+#
+DEF SN74LVC8T245 U 0 40 N N 1 L N
+F0 "U" 0 200 50 H V L BNN
+F1 "SN74LVC8T245" 0 100 50 H V L BNN
+F2 "TTSOP-24" 0 0 50 H I L BNN
+F3 "TSSOP-24 Texas Instruments" 0 0 50 H I L BNN
+F4 "SN74LVC8T245" 0 0 50 H I L BNN
+F5 "Texas Instruments" 0 0 50 H I L BNN
+F6 "Voltage Level Translator Bidirectional 1 Circuit 8 Channel 24-SSOP" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 0 0 0 -1300 N
+P 2 0 0 10 0 -1300 400 -1300 N
+P 2 0 0 10 400 -1300 400 0 N
+P 2 0 0 10 400 0 0 0 N
+T 0 30 -100 40 0 0 0 VCCA Normal 0 L C
+T 0 30 -200 40 0 0 0 !OE Normal 0 L C
+T 0 30 -500 40 0 0 0 A1 Normal 0 L C
+T 0 30 -600 40 0 0 0 A2 Normal 0 L C
+T 0 30 -701 40 0 0 0 A3 Normal 0 L C
+T 0 30 -801 40 0 0 0 A4 Normal 0 L C
+T 0 30 -900 40 0 0 0 A5 Normal 0 L C
+T 0 30 -1001 40 0 0 0 A6 Normal 0 L C
+T 0 30 -1101 40 0 0 0 A7 Normal 0 L C
+T 0 30 -1200 40 0 0 0 A8 Normal 0 L C
+T 0 371 -1202 40 0 0 0 B8 Normal 0 R C
+T 0 371 -1102 40 0 0 0 B7 Normal 0 R C
+T 0 371 -1002 40 0 0 0 B6 Normal 0 R C
+T 0 371 -901 40 0 0 0 B5 Normal 0 R C
+T 0 370 -800 40 0 0 0 B4 Normal 0 R C
+T 0 370 -701 40 0 0 0 B3 Normal 0 R C
+T 0 370 -600 40 0 0 0 B2 Normal 0 R C
+T 0 370 -500 40 0 0 0 B1 Normal 0 R C
+T 0 370 -300 40 0 0 0 GND Normal 0 R C
+T 0 371 -100 40 0 0 0 VCCB Normal 0 R C
+T 0 30 -300 40 0 0 0 DIR Normal 0 L C
+X ~OE~ P$22 -100 -200 100 R 40 40 0 0 B 
+X VCCA P$1 -100 -100 100 R 40 40 0 0 B 
+X VCCB P$23 500 -100 100 L 40 40 0 0 B 
+X VCCB P$24 500 -100 100 L 40 40 0 0 B 
+X GND P$11 500 -300 100 L 40 40 0 0 B 
+X GND P$12 500 -300 100 L 40 40 0 0 B 
+X GND P$13 500 -300 100 L 40 40 0 0 B 
+X A1 P$3 -100 -500 100 R 40 40 0 0 B 
+X A2 P$4 -100 -600 100 R 40 40 0 0 B 
+X A3 P$5 -100 -700 100 R 40 40 0 0 B 
+X A4 P$6 -100 -800 100 R 40 40 0 0 B 
+X A5 P$7 -100 -900 100 R 40 40 0 0 B 
+X A7 P$9 -100 -1100 100 R 40 40 0 0 B 
+X A6 P$8 -100 -1000 100 R 40 40 0 0 B 
+X A8 P$10 -100 -1200 100 R 40 40 0 0 B 
+X B1 P$21 500 -500 100 L 40 40 0 0 B 
+X B2 P$20 500 -600 100 L 40 40 0 0 B 
+X B3 P$19 500 -700 100 L 40 40 0 0 B 
+X B4 P$18 500 -800 100 L 40 40 0 0 B 
+X B5 P$17 500 -900 100 L 40 40 0 0 B 
+X B6 P$16 500 -1000 100 L 40 40 0 0 B 
+X B7 P$15 500 -1100 100 L 40 40 0 0 B 
+X B8 P$14 500 -1200 100 L 40 40 0 0 B 
+X DIR P$2 -100 -300 100 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
